@@ -1,0 +1,41 @@
+.section {
+  padding: 50px 0;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 0.93;
+  color: #173a56;
+}
+
+.main-btn,
+.secondary-btn {
+  min-width: 100px;
+  padding: 14px 41px;
+  border-radius: 4px;
+
+  font-weight: 700;
+  font-size: 16px;
+  color: #fff;
+  background-color: #02897a;
+}
+
+.secondary-btn {
+  color: #02897a;
+  background-color: #fff;
+}
+
+.main-btn:hover,
+.main-btn:focus {
+  background-color: #016b5e;
+}
+
+.secondary-btn:hover,
+.secondary-btn:focus {
+  background-color: #cccccc;
+}
