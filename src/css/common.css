@@ -39,3 +39,6 @@
 .secondary-btn:focus {
   background-color: #cccccc;
 }
+
+@media screen and (min-width: 1400px) {
+}
